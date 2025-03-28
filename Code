@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joe Ben M. Raffiñan | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Joe Ben M. Raffiñan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I’m Joe Ben M. Raffiñan, a beginner in Human-Computer Interaction (HCI). I'm currently exploring the field and focusing on learning the basics of web development and user experience design. I’m part of a group project where we’re building an HTML website as part of our school assignment. I’m looking forward to developing my skills further and applying what I learn in the real world!</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>School Website (Group Project)</h3>
+                <p>As part of our school assignment, our group is working on an HTML website. The project focuses on creating a simple and functional site that meets the requirements of the assignment, while also learning how to work together as a team.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can reach out to me through the following links:</p>
+            <ul>
+                <li>GitHub: <a href="https://github.com" target="_blank">github.com/yourusername</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Joe Ben M. Raffiñan. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
