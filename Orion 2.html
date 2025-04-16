@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orion Heights University</title>
+  <style>
+
+    * {
+      margin: 10;
+      padding: 20;
+      box-sizing: border-box;
+    }
+
+
+    body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f0f0f0;
+ color: #333;
+ }
+
+
+ /* Header Styles */
+header {
+  background-color: #09267c;
+  color: white;
+  padding: 10px 20px; /* Adjust padding for compact spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px; /* Space between logo image and text */
+}
+
+.logo h1 {
+  font-size: 1.5em; /* Slightly larger font for better visibility */
+  color: #FFD700; /* University name color */
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  border: none;
+  padding: 6px; /* Reduced padding for compact appearance */
+  border-radius: 20px;
+  margin-right: 5px; /* Space between input and button */
+}
+
+.search-bar button {
+  background-color: #fff;
+  color: #1437a0;
+  border: none;
+  padding: 6px; /* Reduced button padding */
+  border-radius: 20px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #1a3a9b; /* Matches image background */
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 20px; /* Remove default padding */
+  margin: auto; /* Center align navigation items horizontally */
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px; /* Reduce space between nav items */
+}
+
+nav ul li a {
+  color: white; /* White text for nav links */
+  text-decoration: none; /* No underline */
+}
+
+nav ul li.active a {
+  color: #FFD700; /* Highlight active link */
+}
+
+/* Navigation Right Section */
+.nav-right {
+  display: flex;
+}
+
+.nav-links a {
+  color: white; /* White text for right-side links */
+  text-decoration: yellow; /* No underline */
+}
+
+
+
+ /* Search Bar */
+ .search-bar {
+ display: flex;
+ align-items: center;
+ background-color: #fff;
+ border-radius: 20px;
+ padding: 5px 10px;
+ border: 1px solid #ccc;
+ }
+
+
+ .search-bar input[type="text"] {
+ border: none;
+ padding: 8px;
+ border-radius: 20px;
+ margin-right: 5px;
+ width: 150px;
+ }
+
+
+ .search-bar button {
+ background-color: #fff;
+ color: #1437a0;
+ border: none;
+ padding: 8px 12px;
+ border-radius: 20px;
+ cursor: pointer;
+ }
+
+
+    /* Hero Section */
+    .hero {
+      background-image: url("Orion\ Bg.png"); 
+      background-size: cover;
+      background-position: center;
+      height: calc(100vh - 80px); 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .hero-content {
+      text-align: center;
+      color: rgb(26, 55, 184);
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      padding: 50px;
+      border-radius: 10px; /* Rounded corners */
+    }
+
+
+    .hero-content h2 {
+      font-size: 2rem; /* Adjust font size */
+      color: #003366; /* Dark blue text */
+    }
+
+
+    .hero-content p {
+      margin-top: 10px;
+      font-size: 1.2rem; /* Adjust paragraph size */
+    }
+
+
+    .cta-button {
+        -webkit-margin-top-collapse: 30px; /* Adjust the value as needed */
+      padding: 10px 20px;
+      background-color: #003366; 
+      color: white;
+      border-radius: 5px;
+      text-decoration: none; 
+    }
+    
+    .cta-button:hover {
+        background-color:#005999
+}
+</style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+      <div class="logo">
+          <img src="Orion Icon.png" alt="Orion Heights University Logo">
+          <h1>ORION HEIGHTS UNIVERSITY</h1>
+      </div>
+      <div class="search-bar">
+          <input type="text" placeholder="Search...">
+          <button>Search</button>
+      </div>
+  </header>
+  
+  <!-- Navigation -->
+  <nav>
+      <ul>
+          <li class="active"><a href="Orion 2.html">Home</a></li>
+          <li><a href="page 3.html">Courses</a></li>
+          <li><a href="page 4.html">About</a></li>
+          <li><a href="page 5.html">Events</a></li>
+          <li><a href="page 6.html">Mission & Vision</a></li>
+          <li><a href="page 7.html">Student Life</a></li>
+          <li><a href="page 8.html">Admissions</a></li>
+      </ul>
+  </nav>
+  
+  
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>ORION HEIGHTS UNIVERSITY</h2>
+        <p>Pursue your dreams and goals at Orion Heights University, where education is holistic and innovative.</p>
+        <a href="2nd page.html" class="cta-button">Enroll now!</a>
+      </div>
+    </section>
+  
+  </body>
+  </html>
